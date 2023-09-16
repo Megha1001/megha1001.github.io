@@ -22,10 +22,6 @@ function calculateTimeCompleted(){
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
     const diffYears = Math.floor(diffDays / 365);
     const diffMonths = Math.round((diffDays - diffYears*365) / 30);
-    console.log(diffTime + " milliseconds");
-    console.log(diffDays + " days");
-    console.log(diffYears + " Years");
-    console.log(diffMonths + " Months");
 
     var timeCompleted = diffYears + " Years";
 
@@ -35,7 +31,6 @@ function calculateTimeCompleted(){
         timeCompleted += " and "+diffMonths+" Months";
     }
 
-    console.log(timeCompleted);
     document.getElementById('time-completed').innerHTML = timeCompleted;
     document.getElementById('capsule-value-time-completed').innerHTML = timeCompleted;
 }
