@@ -2,6 +2,21 @@
     padding: 0;
     margin: 0;
 }
+
+.tag {
+}
+
+.tag {
+    opacity: 0;
+    transform: translate(0, 10vh);
+    transition: all 1s;
+}
+
+.tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
 html,body {
     font-size: 10px;
     font-family: 'Muli',sans-serif;
@@ -38,10 +53,11 @@ html,body {
     bottom: 250px;
     right: 250px;
     position: absolute;
+    opacity: .9;
 }
 
 #salutation{
-    color:rgb(49, 179, 255);
+    color:rgb(0, 123, 255);
     font-size: 16px;
     font-weight:800;
 }
@@ -109,12 +125,12 @@ button{
 #capsule-content{
     color:rgb(0, 123, 255);
     margin: 30px;
-    margin-left: 70px;
 }
 
 #capsule-heading{
+    font-family: 'Mulish', sans-serif;
     color:rgb(0, 123, 255);
-    font-weight: 600;
+    font-weight: 800;
     font-size: 14px;
 }
 
@@ -137,7 +153,7 @@ button{
 
 #frame-two{
     background-color: #ffffff;
-    height: 700px;
+    height: 600px;
     width: 100%;
     font-family: 'Muli';
     margin: 0px;
@@ -150,7 +166,6 @@ button{
     font-size: 42px;
     font-weight:900;
     font-family: 'Mulish', sans-serif;
-    line-height: 200%;
 }
 
 .f2-r1{
@@ -187,18 +202,160 @@ div[class*="value"]{
 
 
 
+
+
+.f3-h2{
+    padding-top: 100px;
+    color:#132043;
+    font-size: 42px;
+    font-weight:900;
+    font-family: 'Mulish', sans-serif;
+}
+
+.f3-r1{
+    margin-top: 5   0px !important;
+    color:#e0e0e0;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    line-height: 150%;
+    padding-left: 10px;
+    width: 70%;
+}
+
+div[class*="field"]{
+    color:rgb(0, 79, 164);
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+div[class*="value"]{
+    color:rgb(44, 44, 44);
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    padding-left: 30px;
+}
+
+.material-symbols-outlined{
+    font-size:15px !important;
+    
+}
+
+div[class^="skill-"]{
+    color:rgb(0, 79, 164);
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    line-height: 150%;
+}
+
+.skills-col1{
+    width: 50%;
+    font-weight: 400;
+}
+
+
+.skill-name{
+    color:rgb(0, 30, 61);
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+}
+.skill-value{
+    text-align: right;
+    font-size: 16px !important;
+    font-family: 'Mulish', sans-serif;
+}
+
+.skill-row{
+    margin-top: 30px !important;
+}
+
+
+div[id^="skill-"]{
+    font-size: 20px;
+    background-color: #00cdd8;
+    padding-left: 10px;
+    text-align: left !important;
+}
+
+#skill-java{
+    width: 90%;
+}
+#skill-sql{
+    width: 60%;
+}
+#skill-stream{
+    width: 70%;
+}
+
+#skill-frontend{
+    width: 40%;
+}
+
+#skill-aws{
+    width: 70%;
+}
+
+#skill-gcp-azure{
+    width: 60%;
+}
+
+#skill-ws{
+    width: 70%;
+}
+#skill-docker-k8{
+    width: 40%;
+}
+#skill-terraform{
+    width: 60%;
+}
+
+
+.progress{
+    text-align: right !important;
+}
+
+#subhead{
+    color:rgb(0, 91, 188);
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 100 !important;
+    margin-bottom: 50px;
+}
+
+.perc{
+    font-size: 20px;
+    text-align: right !important;
+    float: right;
+}
+
+
 #frame-three{
-    background-color: #c31f1f;
-    height: 700px;
+    background-color: #fff;
+    height: 400px;
     width: 100%;
     font-family: 'Muli';
     margin: 0px;
     display: flex;
 }
 
+.table{
+    margin-top: 50px;
+    text-align: center !important;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 600 !important;
+    color: #0089c9 !important;
+}
+td {
+    color:rgb(0, 79, 164) !important;
+}
 
 #frame-four{
-    background-color: #5b1ecb;
+    background-color: #f2fbfe;
     height: 700px;
     width: 100%;
     font-family: 'Muli';
