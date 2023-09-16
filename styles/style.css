@@ -134,7 +134,7 @@ button{
     font-size: 14px;
 }
 
-#capsule-value{
+#capsule-value, #capsule-value-time-completed{
     font-family: 'Mulish', sans-serif;
     color:black;
     font-weight: 550;

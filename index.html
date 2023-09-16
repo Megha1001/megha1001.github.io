@@ -27,6 +27,12 @@
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
+
+    <script>
+        window.onload = function() {
+          calculateTimeCompleted();
+        };
+    </script>
 </head>
 
 <body>
@@ -35,7 +41,7 @@
             <div id="salutation">Hi, I am</div>
             <div id="name">Megha Verma</div>
             <div id="title">Software Developer</div>
-            <div id="sub-title">4 Years, 1 month in Software Development and Engineering</div>
+            <div id="sub-title"><span id="time-completed"></span> in Software Development and Engineering</div>
             <div id="bn">
                 <button type="button" class="btn btn-primary btn-download">Download Resume</button>
                 <button type="button" class="btn btn-contact-me">Contact Me</button>
@@ -48,20 +54,20 @@
         <div class="row capsule-row">
             <div class="col p-3 capsule-mid-content" id="capsule-content">
                 <div id="experience col p-3">
-                    <div id="capsule-value">5 Years and a few months!</div>
+                    <div id="capsule-value-time-completed">5 Years and a few months!</div>
                     <div id="capsule-heading">Experience</div>
                 </div>
             </div>
             <div class="col p-3 capsule-mid-content" id="capsule-content">
                 <div id="project col p-3">
-                    <div id="capsule-value">15+ Projects!</div>
+                    <div id="capsule-value">60+ Projects</div>
                     <div id="capsule-heading">Completed</div>
                 </div>
             </div>
             <div class="col p-3 capsule-mid-content" id="capsule-content">
                 <div id="certification col p-3">
-                    <div id="capsule-value">3 AWS Certifications!</div>
-                    <div id="capsule-heading">Aquired</div>
+                    <div id="capsule-value">3 AWS Certifications</div>
+                    <div id="capsule-heading">Acquired</div>
                 </div>
             </div>
         </div>
@@ -164,6 +170,7 @@
     <div id="frame-three">
         <div class="container"> 
             <div class="f3-h2">Tool Stack</div>
+            <div id="subhead">[Some more reasons]</div>
             <table class="table table-borderless">
                 <tbody>
                   <tr>
@@ -211,10 +218,5 @@
         </div>
     </div>
 
-    <div id="frame-four">
-
-    </div>
-
 </body>
-
 </html>
