@@ -335,15 +335,26 @@ div[id^="skill-"]{
 
 #frame-three{
     background-color: #fff;
-    height: 400px;
+    height: 200px;
     width: 100%;
     font-family: 'Muli';
     margin: 0px;
     display: flex;
 }
 
+#frame-three-one{
+    background-color: #fff;
+    height: 140px;
+    width: 100%;
+    font-family: 'Muli';
+    margin: 0px;
+    display: flex;
+    background-color: rgb(250, 250, 250) !important;
+    border-radius: 50px;
+}
+
 .table{
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center !important;
     font-family: 'Mulish', sans-serif;
     font-size: 18px;
@@ -352,6 +363,7 @@ div[id^="skill-"]{
 }
 td {
     color:rgb(0, 79, 164) !important;
+    background-color: rgb(250, 250, 250) !important;
 }
 
 #frame-four{
@@ -359,6 +371,6 @@ td {
     height: 700px;
     width: 100%;
     font-family: 'Muli';
-    margin: 0px;
+    margin-top: 50px;
     display: flex;
 }
