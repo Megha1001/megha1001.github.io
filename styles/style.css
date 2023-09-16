@@ -1,0 +1,24 @@
+#top-frame{
+    background-color: beige;
+    height: 1000px;
+}
+
+#salutation{
+    color:gray;
+    font-size: 12px;
+}
+
+#name{
+    color:cadetblue;
+    font-size: 20px;
+}
+
+#title{
+    color:thistle;
+    font-size: 10px;
+}
+
+#sub-title{
+    color:gray;
+    font-size: 8px;
+}
